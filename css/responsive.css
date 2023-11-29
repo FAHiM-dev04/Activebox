@@ -1,0 +1,286 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) { 
+    .services_main {
+        padding: 100px 0px 100px 20px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 60px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .services_main {
+        padding: 100px 0px 100px 0px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 70px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+    .client_img img {
+        width: 600px;
+        height: 350px;
+    }
+    .contact_con3 h5 {
+        margin-top: 40px;
+    }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .services_main {
+        padding: 100px 0px 100px 0px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 70px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+    .client_img img {
+        width: 400px;
+        height: 350px;
+    }
+    .contact_con3 h5 {
+        margin-top: 60px;
+    }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .services_main {
+        padding: 100px 0px 100px 0px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 70px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+    .client_img img {
+        width: 400px;
+        height: 350px;
+    }
+    .home_con p {
+        max-width: 680px;
+    }
+    .services_img {
+        padding-top: 50px;
+    }
+    .work_img_ineer {
+        width: 100%;
+        height: 200px;
+    }
+    /* .client_con_main{
+        display: inline;
+        margin-bottom: 100px;
+    } */
+    .client_img img {
+        width: 250px;
+        height: 350px;
+    }
+    .client_con_slider img {
+        width: 800px;
+        height: 350px;
+    }
+    .client_f_c h4 {
+        margin-top: 50px;
+    }
+    .client_con h4 {
+        font-size: 30px;
+    }
+    .contact_con h5 {
+        padding-top: 50px;
+    }
+    .contact_con3 h5 {
+        margin-top: 50px;
+    }
+    .navbar-toggler:hover {
+        border-color: white;
+    }
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: white;
+        background-color: #e74545;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .services_main {
+        padding: 100px 0px 100px 0px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 70px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+    .client_img img {
+        width: 400px;
+        height: 350px;
+    }
+    .home_con p {
+        max-width: 680px;
+    }
+    .services_img {
+        padding-top: 50px;
+    }
+    .work_img_ineer {
+        width: 100%;
+        height: 200px;
+    }
+    .client_con_main{
+        display: inline;
+        margin-bottom: 100px;
+    } 
+    .client_img img {
+        width: 100%;
+        height: 350px;
+    }
+    .client_con_slider img {
+        width: 800px;
+        height: 350px;
+    }
+    .client_f_c h4 {
+        margin-top: 50px;
+    }
+    .client_con h4 {
+        font-size: 30px;
+    }
+    .contact_con h5 {
+        padding-top: 50px;
+    }
+    .contact_con3 h5 {
+        margin-top: 50px;
+    }
+    .navbar-toggler:hover {
+        border-color: white;
+    }
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: white;
+        background-color: #e74545;
+    }
+    .work_row{
+        display: inline;
+    }
+    .row_work_2{
+        display: inline;
+    }
+    .work_img_ineer {
+        width: 100%;
+        height: 350px;
+    }
+
+}
+
+ /* small screen 320  */
+ @media (min-width: 320px) and (max-width: 575px) {
+    .services_main {
+        padding: 100px 0px 100px 0px;
+    }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        padding-left: 70px;
+    }
+    .team_col {
+        padding: 10px;
+    }
+    .client_img img {
+        width: 400px;
+        height: 350px;
+    }
+    .home_con p {
+        max-width: 680px;
+    }
+    .services_img {
+        padding-top: 50px;
+    }
+    .work_img_ineer {
+        width: 100%;
+        height: 200px;
+    }
+    .client_con_main{
+        display: inline;
+        margin-bottom: 100px;
+    } 
+    .client_img img {
+        width: 100%;
+        height: 350px;
+    }
+    .client_con_slider img {
+        width: 800px;
+        height: 350px;
+    }
+    .client_f_c h4 {
+        margin-top: 50px;
+    }
+    .client_con h4 {
+        font-size: 30px;
+    }
+    .contact_con h5 {
+        padding-top: 50px;
+    }
+    .contact_con3 h5 {
+        margin-top: 50px;
+    }
+    .navbar-toggler:hover {
+        border-color: white;
+    }
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: white;
+        background-color: #e74545;
+    }
+    .work_row{
+        display: inline;
+    }
+    .row_work_2{
+        display: inline;
+    }
+    .work_img_ineer {
+        width: 100%;
+        height: 300px;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+        padding: 5px;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+        padding: 5px;
+    }
+    .home_con h1 {
+        font-size: 30px;
+        max-width: 760px;
+        margin: auto;
+        padding: 0px 10px 0px 10px;
+    }
+    .client_con h4 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .client_con {
+        padding: 50px 8px 50px 8px;
+    }
+    .footer_con p {
+        padding-right: 50px;
+    }
+    .client_con p {
+        padding: 20px 0px 20px 10px;
+    }
+ }
